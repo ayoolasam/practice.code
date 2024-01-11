@@ -1,0 +1,110 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height:150vh;
+    margin:0;
+}
+.header1{
+    width:100%;
+    height:20vh;
+    /* border:2px solid black; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* padding: 20px; */
+    
+}
+.nav-bar a{
+    padding:20px;
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    
+}
+ .logo{
+    color:purple;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:700;
+    margin-left:40px;
+ }
+ #home{
+    font-weight:700;
+    /* text-decoration: underline purple; */
+ }
+ .main-content{
+
+background-color: purple;
+height:80vh;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+ }
+ h1{ font-size: 50px;
+color:white}
+
+#second-header{
+    margin-top:0px;
+}
+p{color:white;}
+
+.btn{
+    margin-right:30px;
+    border-radius:20px;
+    
+    height:50px;
+    width:120px;
+    border:2px solid purple;
+    background-color: white;
+    color:purple;
+    font-size:15px;
+    font-weight:800;
+    
+    
+
+}
+.inputs{width:540px;
+    height:39px;
+    border-radius:30px;
+    /* border:10px solid purple; */
+    /* padding:10px; */
+    /* position:relative; */
+    text-align:center;
+    /* padding:10px; */
+
+}
+.select-mark{
+    border-radius:30px;
+    height:40px;
+    width:100px;
+    position:absolute;
+    margin-left:0;
+    outline:none;
+    border:none;
+    /* border:3px solid white; */
+/* padding:10px; */
+}
+.container-2{
+    /* position:relative; */
+    display:flex;
+    align-items: center;
+
+    height:100px;
+}
+.container-2 select{
+    margin-right:20px;
+}
+   .nav-bar  .selected {
+    outline:none;
+    border:none;
+    color:green;
+  }
+.footers{
+    background-color: brown;
+    height:50vh;
+    width:100%;
+}

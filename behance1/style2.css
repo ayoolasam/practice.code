@@ -1,0 +1,59 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200&display=swap');
+* { font-family: 'Poppins', sans-serif;
+  
+  
+}
+body{
+    margin:0;
+    background-image: url(/image/thomas-bennie-lxziZx-TfSo-unsplash\ \(1\).jpg) ;
+    background-size: cover;
+    height:200vh; 
+    padding:0;  
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:35px;
+    font-weight: 300;
+}
+  
+    
+  .bx.bxl-firebase {
+    font-size:50px;
+}
+.container{display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    
+    box-sizing: border-box;
+    padding:0px;
+    border-bottom: 0 solid gainsboro;
+    
+    
+}
+.nav-bar{
+  display:flex;
+  padding:0;
+  
+}
+.nav-bar a{
+  text-decoration: none;
+  padding:20px 50px;
+  color:white;
+  font-weight:700px;
+  font-size:20px;
+  display:block;
+}
+.nav-bar a:hover{
+background-color: #333;
+color:white;
+}
+
+.sidebar a{
+  padding:10px;
+  color:black;
+  font-size: 20px;;
+}
+.spano{
+  padding:10px;
+  margin-left:7px;
+  margin-bottom:40px;
+}

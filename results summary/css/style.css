@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:wght@500;800&family=Outfit:wght@400;500;700;800;900&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "hanken grotesk",sans-seriff;
+}
+.container{
+    width:760px;
+    height:500px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 10% auto;
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    box-shadow: 0px 10px hsla(0, 0% ,90% ,1);
+
+}
+.left-container{
+    position:absolute;
+    height:500px;
+    width:50%;
+    background: linear-gradient(  hsl(252, 100%, 67% ), hsla(241, 81%, 54%));
+     
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "hanken grotesk" ,sans-serif;
+    border-radius: 30px;
+    
+}
+
+.circle{
+   height: 200px;
+   width:200px;
+   border-radius: 50%;
+background: linear-gradient( hsla( 241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+   display: flex;
+   flex-direction: column;
+   color: hsl(0, 0%, 100%);
+   align-items: center;
+   justify-content: center;
+   margin-top:20px;
+   padding:20px 20px;
+}
+.result{
+    margin-top: 50px;
+    font-size:20px;
+    font-weight: 500;
+}
+.number{
+    font-size:80px;
+    font-weight: 800;
+}
+ .wordings p{
+font-size: 18px;
+}
+.wordings{
+    padding:20px 40px;
+}
+.second-container{
+    height: 500px;
+    width:50%;
+    position:absolute;
+    background-color: hsl(0, 0%, 100%);
+    right:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        padding:10px 20px;
+        
+    }
+    .buttons button{
+        margin-bottom:20px;
+        width:300px;
+        height:40px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        border:none;
+    }
+
+.cont{
+    width:300px;
+    height:40px;
+    border-radius: 20px;
+    background: hsl(224, 30%, 27%);
+    color:hsl(0, 0%, 100%);
+    border:none;
+}
+.summary{
+    color:hsl(224, 30%, 27%);
+    margin-right:200px;
+    font-size: 30px;
+    font-weight: 800;
+}
+ .buttons .samu{
+    justify-content: space-between;
+    padding:10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display:flex;
+
+    
+}
+.reaction{ color:hsl(0, 100%, 67%);
+}
+.memory{
+    color:hsl(39, 100%, 56%);
+}
+.verbal{
+    color:hsl(166, 100%, 37%);
+}
+.visual{
+    color:hsl(234, 85%, 45%);
+}
+#samu1{
+    background-color: hsla(0,100%, 56% ,0.1);
+}
+#samu2{
+    background-color: hsla(39,100%, 56% ,0.1);
+}
+#samu3{
+    background-color: hsla(234,85%, 45% ,0.1);
+}
+#samu4{
+    background-color: hsla(166,100%, 37% ,0.1);
+}
+.bold{
+    font-weight: 900;
+    color: hsla(0,0%,20% ,0.8);
+}

@@ -174,4 +174,7 @@ margin-right: 20px;
     .card{
         margin:auto;
     }
+    #card2{box-sizing: border-box;
+    padding:20px;
+height:330px;}
 }

@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:wght@500;800&family=Outfit:wght@400;500;700;800;900&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin:0;
+    padding:0px;
+    background-color:rgb(0,0,0);
+}
+/* navbar */
+nav{
+    /* border-bottom: 2px white solid; */
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav span{
+    color:white;
+    margin-right: 17px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+}
+
+nav a{text-decoration: none;
+color:white;
+font-size: 20px;
+font-family:  'poppins',sans-serif;}
+
+.fa-circle-half-stroke{font-size: 40px;
+    color:white;
+}
+.menu-bar a{
+    padding:10px;
+}
+.omenubar button{
+    background-color: rgb(31, 95, 223);
+    width:160px;
+    color:white;
+    font-family:  'poppins',sans-serif;
+    height:50px;
+    border-radius: 20px;
+    font-size: 15px;
+    outline: none;
+}
+#services{color:rgb(161,161,161)}
+#products{color:rgb(161,161,161)}
+#spano{margin-left: 20px;
+color:rgb(161,161,161);}
+/* navend */
+
+/* herobox */
+.herobox{
+    color:white;
+    font-family:'poppins',sans-serif ;
+    display: flex;
+    height:600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#button2{
+
+        background-color: rgb(31, 95, 223);
+        width:160px;
+        color:white;
+        font-family:  'poppins',sans-serif;
+        height:50px;
+        border-radius: 20px;
+        font-size: 15px;
+        outline: none;
+}
+.herobox p{font-size: 20px;
+color:rgb(161,161,161)}
+.herobox h1{font-size:60px;}
+ #design{
+    color:rgb(31, 95, 223);
+}  
+/* heroboxend */
+
+/* casesstudies section */
+.headers{display: flex;
+    justify-content: space-between;
+color:white;
+font-family:'poppins',sans-serif ;}
+.container{
+    height:300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:20px; */
+    box-sizing: border-box;
+
+
+}
+.headers a{
+    color:white;
+    font-family: 'poppins',sans-serif;
+}
+.card{
+    height:280px;
+    width:500px;
+    /* background-color: cornflowerblue; */
+box-sizing: border-box;
+padding:20px;
+border:1px solid rgb(161 161 161);
+border-radius:20px;
+margin-right: 20px;
+}
+.small-headings{
+    
+    display:flex;
+    justify-content: space-around;
+    color:rgb(161,161,161);
+    font-family: 'poppins',sans-serif;
+    font-size: 19px;
+}
+.contents{
+    font-family: 'poppins',sans-serif;
+}
+.contents p{
+    color:rgb(161,161,161);
+}
+.contents h1{
+    color:white;
+}
+.card span{
+    font-family:'poppins',sans-serif ;
+    color:white;
+}
+.fa-arrow-right-long{
+    margin-left:20px;
+}
+#card2{
+    background-color:  rgb(31, 95, 223);
+}
+.headers a{
+    margin-right: 120px;
+    margin-top: 40px;
+}
+.headers h1{margin-left: 40px;}
+/* case stdies end */
+/* media query */
+@media (max-width:480px){
+   
+    }
